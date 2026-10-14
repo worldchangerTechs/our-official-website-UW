@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Page not found — Unity Within</title>
+    <script>
+      (function () {
+        var base = "/unitywithin-application-page/";
+        var path = window.location.pathname;
+        if (path.indexOf(base) === 0) {
+          var route = path.slice(base.length).replace(/^\/+|\/+$/g, "");
+          var known = ["our-story", "what-we-do", "peer-training", "get-support", "self-acceptance-hub", "stories", "impact", "events", "volunteer", "partner", "donate", "resources", "contact", "tipape"];
+          if (known.indexOf(route) !== -1 || /^stories\/[^/]+$/.test(route)) {
+            window.location.replace(base + "#/" + route);
+          }
+        }
+      }());
+    </script>
+  </head>
+  <body><main><h1>Page not found</h1><p><a href="/unitywithin-application-page/">Return to Unity Within</a></p></main></body>
+</html>

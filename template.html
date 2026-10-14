@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unity Within — Student-led peer support movement</title>
+
+  <!-- Preconnect to Google Fonts domain -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Primary font: Inter, preloaded and loaded with display=swap -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"></noscript>
+
+  <!-- Critical CSS (above-the-fold: needed for initial render) -->
+  <style>
+    :root{
+      --brand-pink:#e84393;
+      --brand-fuchsia:#d946c1;
+      --brand-beige:#f5f0e8;
+      --brand-white:#ffffff;
+      --brand-black:#1a1a1a;
+      --muted:#6b7280
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{
+      font-family:Inter,system-ui,-serif;
+      font-weight:400;
+      line-height:1.6;
+      color:var(--brand-black);
+      background:var(--brand-white);
+      -webkit-font-smoothing:antialiased
+    }
+    a{text-decoration:color:inherit;color:inherit}
+    img{max-width:100%;display:block}
+    button{font:inherit;cursor:pointer}
+    [hidden]{display:none}
+    .wordmark{display:inline-flex;align-items:center}
+    .wordmark .unity{font-weight:400;font-style:normal}
+    .wordmark .within{font-weight:600;font-style:normal}
+    h1{font-weight:600;line-height:1.1}
+    h2{font-weight:500;line-height:1.3}
+    h3{font-weight:500}
+    .label-ebrow{
+      font-size:.75rem;text-transform:uppercase;letter-spacing:.2em;color:var(--muted);margin-bottom:.75rem;font-weight:400
+    }
+    .headline .accent{font-style:italic;font-weight:400}
+    nav{position:fixed;top:0;left:0;width:100%;background:var(--brand-white);z-index:100;border-bottom:1px solid rgba(0,0,0,.1)}
+    .nav-container{max-width:1200px;margin:auto;padding:1rem 1.5rem;display:flex;justify-content:space-between;align-items:center}
+    .nav-links a{margin-left:2rem;font-weight:500;color:var(--brand-black);position:relative}
+    .nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--brand-pink);transition:width .3s}
+    .nav-links a:hover::after{width:100%}
+    .hero-image{width:100%;height:auto}
+    .quick-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(80px,1fr));gap:1rem;margin:2rem 0}
+    .fact-item{text-align:center;padding:1rem;border:2px solid var(--brand-beige);border-radius:8px}
+    .fact-number{font-size:2.5rem;font-weight:600;color:var(--brand-pink);line-height:1;display:block;margin-bottom:.25rem}
+    .fact-label{font-size:.875rem;color:var(--muted)}
+    .stat-callout{background:linear-gradient(135deg,var(--brand-pink),var(--brand-fuchsia));color:var(--brand-white);padding:2rem;border-radius:12px;text-align:center}
+    .stat-number{font-size:3rem;font-weight:600;line-height:1;margin-bottom:.5rem}
+    .stat-label{font-size:1rem;opacity:.9}
+    .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;transition:top .3s}
+    .skip-link:focus{left:0;top:0;width:auto;height:auto;padding:1rem;background:var(--brand-white);color:var(--brand-black)}
+    .footer{background:var(--brand-black);color:#e5e7eb;padding:3rem 1.5rem 1rem}
+    .footer-container{max-width:1200px;margin:auto;padding:0 1.5rem}
+    .footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2rem;margin-bottom:2rem}
+    .footer-brand .wordmark{font-size:1.5rem;color:var(--brand-white)}
+    .footer-brand .within{color:var(--brand-pink)}
+    .footer-links h4,.footer-contact h4{font-size:.875rem;font-weight:500;color:#f4f4f4;margin-bottom:1rem}
+    .footer-links ul{list-style:none}
+    .footer-links li{margin-bottom:.5rem}
+    .footer-links a{color:#9ca3af;font-size:.875rem;transition:color .2s}
+    .footer-links a:hover{color:var(--brand-pink)}
+    .footer-contact p{font-size:.875rem;color:#9ca3aff;margin-bottom:.75rem}
+    .footer-bottom{padding-top1rem;border-top1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;align-items:center;font-size:.75rem;color:#6b7280}
+    @media (prefers-reduced-motion:reduce){*!important{transition:none!important;animation:none!important}}
+  </style>
+
+  <link rel="stylesheet" href="css/style.css" onload="this.onload=null;this.rel='stylesheet'">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="wordmark">
+        <span class="unity">UNITY</span>
+        <span class="within">WITHIN</span>
+      </a>
+      <nav class="nav-links">
+        <a href="our-story.html">Our Story</a>
+        <a href="what-we-do.html">What We Do</a>
+        <a href="peer-training.html">Peer Training</a>
+        <a href="get-support.html">Get Support</a>
+        <a href="self-acceptance-hub.html">Self-Acceptance Hub</a>
+        <a href="stories.html">Stories</a>
+        <a href="impact.html">Impact</a>
+        <a href="events.html">Events</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="partner.html">Partner</a>
+        <a href="donate.html">Donate</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- Example picture block -->
+    <picture>
+      <source type="image/avif" srcset="/images/optimized/hero-480.avif 480w, /images/optimized/hero-800.avif 800w, /images/optimized/hero-1200.avif 1200w, /images/optimized/hero-1600.avif 1600w">
+      <source type="image/webp" srcset="/images/optimized/hero-480.webp 480w, /images/optimized/hero-800.webp 800w, /images/optimized/hero-1200.webp 1200w, /images/optimized/hero-1600.webp 1600w">
+      <img class="hero-image" src="/images/optimized/hero-1200.jpg" width="1200" height="800" alt="Students sitting in a circle, engaged in peer support discussion at Kisii University" loading="eager" decoding="async" fetchpriority="high">
+    </picture>
+
+    <!-- Example quick-facts strip -->
+    <section class="quick-facts" aria-label="Quick facts about Unity Within">
+      <div class="fact-item">
+        <div class="fact-number">4/10</div>
+        <div class="fact-label">University students report depression or anxiety</div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-number">120+</div>
+        <div class="fact-label">Psychiatrists in Kenya</div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-number">15k</div>
+        <div class="fact-label">Peer supporters trained</div>
+      </div>
+    </section>
+
+    <!-- Example stat callout -->
+    <section class="stat-callout">
+      <div class="stat-number">85%</div>
+      <div class="stat-label">of students feel more supported after peer training</div>
+    </section>
+
+    <!-- Example numbered step cards -->
+    <section aria-label="How it works">
+      <h2 class="label-ebrow">02 / HOW IT WORKS</h2>
+      <div class="step-card">
+        <div class="step-number">01</div>
+        <div class="step-content">
+          <h3>Apply</h3>
+          <p>Fill in the short form and tell us a bit about you.</p>
+        </div>
+      </div>
+      <div class="step-card">
+        <div class="step-number">02</div>
+        <div class="step-content">
+          <h3>Chat</h3>
+          <p>A friendly conversation — no pressure, just getting to know you.</p>
+        </div>
+      </div>
+      <div class="step-card">
+        <div class="step-number">03</div>
+        <div class="step-content">
+          <h3>Train</h3>
+          <p>Join Google Meet sessions to learn listening and support skills.</p>
+        </div>
+      </div>
+      <div class="step-card">
+        <div class="step-number">04</div>
+        <div class="step-content">
+          <h3>Support</h3>
+          <p>Start showing up for your peers with the team behind you.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Example option cards -->
+    <section aria-label="Get involved">
+      <h2 class="label-ebrow">03 / GET INVOLVED</h2>
+      <div class="option-card">
+        <h4>Peer Supporter</h4>
+        <ul class="checklist">
+          <li>No experience required</li>
+          <li>Free training over Google Meet</li>
+          <li>Be part of the founding team</li>
+        </ul>
+      </div>
+      <div class="option-card">
+        <h4>Trainer / Guide</h4>
+        <ul class="checklist">
+          <li>Shape our safety and training standards</li>
+          <li>Flexible time commitment</li>
+          <li>Founding-level impact</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Example FAQ accordion -->
+    <section aria-label="Frequently asked questions">
+      <h2 class="label-ebrow">04 / FAQ</h2>
+      <div class="faq-item">
+        <button class="faq-question" aria-controls="faq-1" aria-expanded="false">
+          Do I need experience?
+        </button>
+        <div class="faq-answer" id="faq-1">
+          <p>No. We train every peer supporter from scratch — all we ask is that you're willing to listen and show up.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-controls="faq-2" aria-expanded="false">
+          How much time does this take?
+        </button>
+        <div class="faq-answer" id="faq-2">
+          <p>Training happens in short Google Meet sessions. After that, it's as much time as you can genuinely give.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand wordmark">
+        <span class="unity">UNITY</span>
+        <span class="within">WITHIN</span>
+      </div>
+      <div class="footer-grid">
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="our-story.html">Our Story</a></li>
+            <li><a href="what-we-do.html">What We Do</a></li>
+            <li><a href="get-support.html">Get Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul class="footer-links">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Discord</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer-contact">
+            <p>Tipape Matayo, Founder</p>
+            <p>+254 715 765 561</p>
+            <p>unitywithin@kisii.ac.ke</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>2026 Unity Within — Student-led peer support movement</span>
+        <span>Terms & Conditions</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Instant page navigation -->
+  <script>
+    (function(){
+      var links=document.querySelectorAll('a[href*="."]')
+      links.forEach(function(link){
+        link.addEventListener('mouseover',function(){
+          if(link.host===location.host){
+            link.style.webkitTransition='color 0.1s'
+            link.style.transition='color 0.1s'
+          }
+        })
+        link.addEventListener('touchstart',function(e){
+          e.preventDefault()
+        })
+      })
+    })()
+  </script>
+
+  <!-- Main JS (deferred) -->
+  <script defer src="js/main.js"></script>
+  <!-- Page-specific JS (deferred) -->
+  <script defer src="js/stories.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.career-detail-hero h1 em {
+  color: var(--pink);
+}
+
+.career-detail__summary {
+  margin-bottom: 20px;
+}
+
+.career-detail__card {
+  padding: 24px;
+}
+
+.career-detail__meta {
+  display: grid;
+  gap: 8px;
+  margin: 14px 0 0;
+  padding-left: 18px;
+  color: var(--gray);
+}
+
+.career-detail__content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.career-detail__panel {
+  padding: 24px;
+}
+
+.career-detail__list {
+  margin: 14px 0 0;
+  padding-left: 20px;
+  color: var(--ink);
+  line-height: 1.7;
+}
+
+.career-detail__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+@media (max-width: 760px) {
+  .career-detail__content {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,101 @@
+.crisis-box {
+  background: var(--soft);
+}
+
+.crisis-box h2 {
+  max-width: 790px;
+  font-size: clamp(25px, 4vw, 38px);
+  line-height: 1.2;
+}
+
+.crisis-disclaimer,
+.verify-note,
+.contact-options p,
+.form-note {
+  max-width: 720px;
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.card-grid > .wrap {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.can-card ul,
+.cannot-card ul,
+.campus-support ul {
+  display: grid;
+  gap: 10px;
+  margin: 18px 0 0;
+  padding-left: 20px;
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contact-options {
+  margin-block: 20px;
+}
+
+.contact-form {
+  display: grid;
+  max-width: 700px;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.contact-form > label {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--white);
+  color: var(--ink);
+}
+
+.contact-form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contact-form .button {
+  justify-self: start;
+}
+
+.form-note,
+.form-status {
+  margin: 0;
+}
+
+.tips-list {
+  display: grid;
+  max-width: 700px;
+  gap: 12px;
+  padding-left: 22px;
+  color: var(--gray);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.tips-list li::marker {
+  color: var(--pink-deep);
+  font-family: var(--font-mono);
+}
+
+@media (max-width: 650px) {
+  .card-grid > .wrap {
+    grid-template-columns: 1fr;
+  }
+}

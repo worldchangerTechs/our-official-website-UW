@@ -1,0 +1,117 @@
+.resources-hero h1 em {
+  color: var(--pink);
+}
+
+.resources-search {
+  display: grid;
+  gap: 8px;
+  max-width: 620px;
+  margin-top: 24px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.resources-search input {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 13px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--white);
+  color: var(--black);
+  font: inherit;
+}
+
+.resources-search input:focus-visible {
+  outline: 3px solid var(--pink);
+  outline-offset: 2px;
+}
+
+.resources-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-block: 16px 22px;
+}
+
+.resources-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.resource-card h3 {
+  font-size: 21px;
+}
+
+.breathing-guide {
+  grid-row: span 2;
+}
+
+.breathing-orb {
+  width: 96px;
+  height: 96px;
+  margin: 12px auto 2px;
+  border: 2px solid var(--pink);
+  border-radius: 50%;
+  background: var(--soft);
+}
+
+.breathing-phase {
+  min-height: 44px;
+  margin: 0;
+  color: var(--pink-deep) !important;
+  font-weight: 600;
+  text-align: center;
+}
+
+.breathing-guide > .button {
+  align-self: center;
+}
+
+.breathing-steps {
+  display: grid;
+  gap: 5px;
+  color: var(--gray);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .breathing-orb {
+    transform: none !important;
+  }
+}
+
+.resource-card p,
+.resources-help-card p {
+  color: var(--gray);
+  line-height: 1.65;
+}
+
+.resources-empty {
+  grid-column: 1 / -1;
+  color: var(--gray);
+}
+
+.resources-help-card {
+  margin-top: 20px;
+  background: var(--soft);
+}
+
+.resources-help-card a {
+  color: var(--pink-deep);
+  font-weight: 700;
+}
+
+.resources-disclaimer {
+  margin-top: 15px;
+  color: var(--gray);
+  font-size: 13px;
+}
+
+@media (max-width: 640px) {
+  .resources-results {
+    grid-template-columns: 1fr;
+  }
+}

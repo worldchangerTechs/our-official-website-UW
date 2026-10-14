@@ -1,0 +1,71 @@
+.button-primary,
+.button-secondary,
+.button-ghost {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 19px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font: 500 14px/1.2 var(--font-body);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+}
+
+.button-primary {
+  background: var(--pink);
+  color: var(--white);
+}
+
+.button-primary:hover {
+  transform: translateY(-2px);
+  background: var(--pink-deep);
+}
+
+.button-secondary {
+  border-color: var(--ink);
+  background: transparent;
+  color: var(--ink);
+}
+
+.button-secondary:hover {
+  transform: translateY(-2px);
+  border-color: var(--pink);
+  color: var(--pink-deep);
+}
+
+.button-ghost {
+  background: transparent;
+  color: var(--pink-deep);
+}
+
+.button-ghost:hover {
+  transform: translateY(-2px);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.button-primary:focus-visible,
+.button-secondary:focus-visible,
+.button-ghost:focus-visible {
+  outline: 3px solid var(--pink-deep);
+  outline-offset: 3px;
+}
+
+.button-primary:disabled,
+.button-secondary:disabled,
+.button-ghost:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button-primary,
+  .button-secondary,
+  .button-ghost {
+    transition: none;
+  }
+}

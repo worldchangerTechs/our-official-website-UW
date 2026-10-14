@@ -1,0 +1,60 @@
+{
+  "currency": "KES",
+  "note": "",
+  "needs": [
+    {
+      "id": "facilitator-costs",
+      "title": "Facilitator costs",
+      "category": "Learning",
+      "description": "Support approved facilitator time for workshops and volunteer learning.",
+      "amount": null,
+      "targetAmount": null,
+      "raisedAmount": null
+    },
+    {
+      "id": "printed-guides",
+      "title": "Printed guides",
+      "category": "Materials",
+      "description": "Prepare accessible printed information and learning guides for activities.",
+      "amount": null,
+      "targetAmount": null,
+      "raisedAmount": null
+    },
+    {
+      "id": "venue",
+      "title": "Venue",
+      "category": "Community",
+      "description": "Help provide an appropriate, welcoming space for a gathering or workshop.",
+      "amount": null,
+      "targetAmount": null,
+      "raisedAmount": null
+    },
+    {
+      "id": "refreshments",
+      "title": "Refreshments",
+      "category": "Community",
+      "description": "Provide refreshments for participants at approved community activities.",
+      "amount": null,
+      "targetAmount": null,
+      "raisedAmount": null
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "category": "Access",
+      "description": "Support agreed transport needs for delivering or attending community activities.",
+      "amount": null,
+      "targetAmount": null,
+      "raisedAmount": null
+    },
+    {
+      "id": "training-materials",
+      "title": "Training materials",
+      "category": "Learning",
+      "description": "Prepare practical materials for peer-support and volunteer training.",
+      "amount": null,
+      "targetAmount": null,
+      "raisedAmount": null
+    }
+  ]
+}

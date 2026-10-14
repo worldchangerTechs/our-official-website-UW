@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Unity Within Self-Acceptance Hub data",
+  "type": "object",
+  "required": ["affirmations", "content", "discussionPrompts"],
+  "properties": {
+    "affirmations": {
+      "type": "array",
+      "minItems": 20,
+      "maxItems": 20,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "content": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": ["slug", "type", "title", "summary", "readMinutes", "tags", "body"],
+        "properties": {
+          "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "type": { "enum": ["article", "story", "prompt", "resource"] },
+          "title": { "type": "string", "minLength": 1 },
+          "summary": { "type": "string", "minLength": 1 },
+          "readMinutes": { "type": "integer", "minimum": 1 },
+          "tags": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": ["identity", "confidence", "belonging", "academic pressure", "relationships", "stigma"]
+            }
+          },
+          "body": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "discussionPrompts": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "required": ["title", "prompt"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "prompt": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

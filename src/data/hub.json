@@ -1,0 +1,37 @@
+{
+  "affirmations": [
+    "I deserve care, even on difficult days.",
+    "My feelings are worth listening to.",
+    "I can take one step at a time.",
+    "I do not have to have every answer today.",
+    "I am allowed to ask for support.",
+    "My pace is my own.",
+    "I can be learning and still be enough.",
+    "I deserve to be treated with respect.",
+    "I can make room for rest.",
+    "I am more than one hard moment.",
+    "I can choose what I am ready to share.",
+    "My boundaries matter.",
+    "I can reach out when I need connection.",
+    "I am allowed to change and grow.",
+    "I deserve spaces where I feel welcome.",
+    "I can take a pause without giving up.",
+    "My experiences are part of me, not all of me.",
+    "I can be kind to myself while I figure things out.",
+    "It is okay to seek help from someone qualified.",
+    "I belong in conversations about my wellbeing."
+  ],
+  "content": [],
+  "discussionPrompts": [
+    { "title": "What helps you feel listened to?", "prompt": "What does someone do that helps you feel they are really listening?" },
+    { "title": "A place to feel at ease", "prompt": "What makes a place feel welcoming or comfortable for you?" },
+    { "title": "Asking for support", "prompt": "What can make it easier to ask someone for support?" },
+    { "title": "Taking a pause", "prompt": "What is one way you like to take a pause when a day feels busy?" },
+    { "title": "Feeling included", "prompt": "What small action can help someone feel included in a group?" },
+    { "title": "Respecting boundaries", "prompt": "How can we check what someone is comfortable sharing?" },
+    { "title": "Learning about mental health", "prompt": "What is something you wish more people understood about mental health?" },
+    { "title": "What support can look like", "prompt": "What kinds of support can friends offer, and when might professional support help?" },
+    { "title": "Community care", "prompt": "What helps a community feel safer and more supportive?" },
+    { "title": "Looking ahead", "prompt": "What is one thing you would like to carry with you after this conversation?" }
+  ]
+}

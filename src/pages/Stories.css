@@ -1,0 +1,142 @@
+/* Stories.css – masonry grid, fade‑up, filter chips, testimonial carousel styling */
+
+/* Hero */
+.stories-hero {
+  padding: clamp(55px, 7vw, 84px) 0;
+  background: var(--soft);
+  text-align: center;
+}
+.stories-hero .wrap {
+  max-width: var(--page-width);
+  margin: 0 auto;
+}
+.stories-hero h1 {
+  margin-top: 24px;
+  font-size: clamp(40px, 6vw, 68px);
+}
+
+/* Filter chips */
+.filter-chips {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+/* Masonry grid – CSS columns */
+.stories-grid {
+  column-count: 3;
+  column-gap: 20px;
+}
+@media (max-width: 960px) {
+  .stories-grid { column-count: 2; }
+}
+@media (max-width: 600px) {
+  .stories-grid { column-count: 1; }
+}
+
+/* Story card – ensure break‑inside avoids column break */
+.story-card {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.story-card .image-wrapper {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+.story-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .3s ease;
+}
+.story-card:hover img {
+  transform: scale(1.03);
+}
+.story-card .quote-mark {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  font-size: 5rem;
+  color: var(--pink);
+  pointer-events: none;
+}
+.story-card .author-portrait {
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--white);
+  background: var(--white);
+}
+.story-card .author-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story-card .story-title {
+  margin-top: 20px;
+  font-size: clamp(18px, 2.2vw, 24px);
+}
+.story-card .story-quote {
+  font-style: italic;
+  color: var(--gray);
+  margin-top: 12px;
+}
+
+/* Testimonial carousel */
+.testimonial-carousel {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  gap: 18px;
+  padding-bottom: 12px;
+}
+.testimonial-carousel .carousel-track {
+  display: flex;
+  gap: 18px;
+}
+.testimonial-carousel .testimonial-card {
+  min-width: 260px;
+  scroll-snap-align: start;
+}
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 12px;
+}
+.carousel-dots .dot {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+  place-items: center;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+.carousel-dots .dot::before {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--line);
+  content: "";
+}
+.carousel-dots .dot:focus-visible {
+  outline: 3px solid var(--pink-deep);
+  outline-offset: 1px;
+}
+.carousel-dots .dot:hover::before,
+.carousel-dots .dot:focus-visible::before {
+  background: var(--pink);
+}

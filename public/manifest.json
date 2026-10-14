@@ -1,0 +1,21 @@
+{
+  "name": "Unity Within",
+  "short_name": "UnityWithin",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f5dfe1",
+  "icons": [
+    {
+      "src": "/images/icons-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+

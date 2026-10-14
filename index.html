@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f5dfe1" />
+    <meta name="description" content="Unity Within is a youth-led mental health organization. We listen, we support, and we connect young people to professional help." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" type="image/avif" href="%BASE_URL%images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1200.avif" fetchpriority="high" />
+    <title>Unity Within | Youth Mental Health Organization</title>
+  </head>
+  <body>
+    <div id="root"><!--app-html--></div>
+    <script>
+      (function () {
+        var base = "/unitywithin-application-page/";
+        var path = window.location.pathname;
+        var route = path.indexOf(base) === 0 ? path.slice(base.length).replace(/\/+$/, "") : "";
+        var pages = ["our-story", "what-we-do", "peer-training", "get-support", "self-acceptance-hub", "stories", "stories/consent-required", "impact", "events", "volunteer", "partner", "donate", "resources", "contact", "not-found"];
+        if (route && !path.endsWith("/")) {
+          var directTarget = pages.indexOf(route) !== -1 ? route : "not-found";
+          window.location.replace(base + directTarget + "/" + window.location.search);
+          return;
+        }
+        if (!window.location.hash && route) {
+          var target = pages.indexOf(route) !== -1 ? route : "not-found";
+          window.history.replaceState(null, "", path + window.location.search + "#/" + target);
+        }
+      }());
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

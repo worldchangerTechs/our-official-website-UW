@@ -1,0 +1,110 @@
+{
+  "story": {
+    "eyebrow": "01 / OUR STORY",
+    "title": "A stronger community starts with showing up.",
+    "intro": "Unity Within is a youth-led mental health organization. We want every young person to feel heard, supported, and safely connected to more help when they need it.",
+    "image": "hassan-kibwana-fmXLB_uHIh4-unsplash.jpg",
+    "imageAlt": "Community members standing together outdoors"
+  },
+  "what": {
+    "eyebrow": "02 / WHAT WE DO",
+    "title": "Small moments of care. A more connected campus.",
+    "intro": "We build practical, compassionate ways for young people to support one another while understanding the boundaries of peer support.",
+    "image": "oscar-omondi-pLWciVWwGVQ-unsplash.jpg",
+    "imageAlt": "A crowd gathered together in community"
+  },
+  "training": {
+    "eyebrow": "03 / PEER-TO-PEER TRAINING",
+    "title": "You don't need every answer to learn how to listen.",
+    "intro": "Training helps peer supporters practise listening, healthy boundaries, and when to connect someone to qualified professional support.",
+    "image": "justin-porter-hZCsLN3Y49c-unsplash.jpg",
+    "imageAlt": "People seated together at a community gathering"
+  },
+  "support": {
+    "eyebrow": "04 / GET SUPPORT",
+    "title": "You deserve to be heard.",
+    "intro": "A peer-support conversation can offer a caring first step. Unity Within is not emergency treatment, crisis care, counselling, or a substitute for professional medical care.",
+    "image": "oscar-omondi-pLWciVWwGVQ-unsplash.jpg",
+    "imageAlt": "People gathering in solidarity"
+  },
+  "hub": {
+    "eyebrow": "05 / SELF-ACCEPTANCE HUB",
+    "title": "There is no one right way to be you.",
+    "intro": "A gentle corner for reflection, self-kindness, and finding community at your own pace.",
+    "image": "hassan-kibwana-fmXLB_uHIh4-unsplash.jpg",
+    "imageAlt": "A group sharing a moment together outdoors"
+  },
+  "stories": {
+    "eyebrow": "06 / STORIES & VOICES",
+    "title": "Stories belong to the people who share them.",
+    "intro": "We only publish personal stories when the contributor has explicitly agreed. You can still share a story privately and choose exactly how, or whether, it appears.",
+    "image": "justin-porter-hZCsLN3Y49c-unsplash.jpg",
+    "imageAlt": "People listening to one another at a gathering"
+  },
+  "impact": {
+    "eyebrow": "07 / OUR IMPACT",
+    "title": "Measure what matters. Share only what we can verify.",
+    "intro": "Trust grows with honest reporting. We share verified activity, learn from our community, and avoid overstating what a young movement can do.",
+    "image": "oscar-omondi-pLWciVWwGVQ-unsplash.jpg",
+    "imageAlt": "A community gathered together"
+  },
+  "events": {
+    "eyebrow": "08 / EVENTS & CAMPAIGNS",
+    "title": "Find your people. Make space for honest conversation.",
+    "intro": "We are building thoughtful opportunities to learn, connect, and make campus feel a little less lonely.",
+    "image": "justin-porter-hZCsLN3Y49c-unsplash.jpg",
+    "imageAlt": "People taking part in a group conversation"
+  },
+  "volunteer": {
+    "eyebrow": "09 / VOLUNTEER",
+    "title": "You can make room for someone to be heard.",
+    "intro": "Peer supporters learn together, receive guidance, and make thoughtful space for students to connect to the help they need.",
+    "image": "oscar-omondi-pLWciVWwGVQ-unsplash.jpg",
+    "imageAlt": "A crowd of young people coming together"
+  },
+  "partner": {
+    "eyebrow": "10 / PARTNER WITH US",
+    "title": "Build safer support, together.",
+    "intro": "We welcome experienced mentors, counsellors, educators, and organisations who can help young people find safe, thoughtful peer support.",
+    "image": "hassan-kibwana-fmXLB_uHIh4-unsplash.jpg",
+    "imageAlt": "Community members sharing space outdoors"
+  },
+  "donate": {
+    "eyebrow": "11 / DONATE",
+    "title": "Help a young idea grow responsibly.",
+    "intro": "We are preparing transparent ways to support peer training and wellbeing resources. Verified giving details will appear here when they are ready.",
+    "image": "justin-porter-hZCsLN3Y49c-unsplash.jpg",
+    "imageAlt": "People gathered together in conversation"
+  },
+  "resources": {
+    "eyebrow": "12 / RESOURCES",
+    "title": "A few caring, practical starting points.",
+    "intro": "These resources support listening and connection. They are educational information, not diagnosis or treatment.",
+    "image": "oscar-omondi-pLWciVWwGVQ-unsplash.jpg",
+    "imageAlt": "People standing together in solidarity"
+  },
+  "contact": {
+    "eyebrow": "13 / CONTACT",
+    "title": "Start a thoughtful conversation.",
+    "intro": "Reach the Unity Within team about peer support, volunteering, collaboration, or ways to make campus feel more connected."
+  },
+  "faq": [
+    { "question": "Do I need experience to volunteer?", "answer": "No. Peer supporters take part in training and receive guidance. We do not expect students to act as counsellors or handle complex situations alone." },
+    { "question": "Is peer support professional treatment?", "answer": "No. Peer support offers connection and listening. It is not counselling, professional medical care, or emergency support." },
+    { "question": "Where can I get help in an emergency?", "answer": "Unity Within is not an emergency service. Please contact local emergency services or a qualified health professional." },
+    { "question": "Can I share a story anonymously?", "answer": "Stories are unpublished by default. We only publish a story with explicit consent, and identifying details must not be shared without the contributor's permission." }
+  ],
+  "pillars": [
+    { "number": "01", "title": "Listen", "text": "Make space for people to speak without judgement." },
+    { "number": "02", "title": "Learn", "text": "Practise peer-support skills and healthy boundaries." },
+    { "number": "03", "title": "Connect", "text": "Help peers find trusted people and resources." },
+    { "number": "04", "title": "Include", "text": "Build belonging across our campus community." },
+    { "number": "05", "title": "Grow", "text": "Create a movement grounded in learning and care." }
+  ],
+  "steps": [
+    { "title": "Apply", "text": "Tell us what brings you to peer support." },
+    { "title": "Connect", "text": "Meet the team in a friendly, no-pressure conversation." },
+    { "title": "Train", "text": "Learn listening skills, boundaries, and how to find extra support." },
+    { "title": "Show up", "text": "Support your peers with the wider team behind you." }
+  ]
+}

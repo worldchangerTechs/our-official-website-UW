@@ -1,0 +1,71 @@
+[
+  {
+    "slug": "peer-supporter",
+    "title": "Peer Supporter",
+    "type": "volunteer",
+    "status": "open",
+    "summary": "Be the person who listens. You will talk with young people who need to be heard and help them find professional help when they need it.",
+    "responsibilities": [
+      "Listen without judging",
+      "Keep what people share private",
+      "Know when to point someone to a counsellor or helpline",
+      "Take part in our free training"
+    ],
+    "lookingFor": [
+      "Someone who listens well",
+      "Kind and respectful",
+      "Can keep things private",
+      "No experience needed"
+    ],
+    "applyUrl": "https://form.jotform.com/262625356038055"
+  },
+  {
+    "slug": "trainer-guide",
+    "title": "Trainer / Guide",
+    "type": "volunteer",
+    "status": "open",
+    "summary": "Help us run our free peer support trainings and guide new peer supporters.",
+    "responsibilities": [
+      "Help lead training sessions",
+      "Guide new peer supporters",
+      "Share what you know about listening and mental health"
+    ],
+    "lookingFor": [
+      "Comfortable guiding a group",
+      "Understands the basics of listening and referring someone for help"
+    ],
+    "applyUrl": "https://form.jotform.com/262656305129054"
+  },
+  {
+    "slug": "chapter-lead",
+    "title": "Chapter Lead",
+    "type": "leadership",
+    "status": "open",
+    "summary": "Start and lead a Unity Within chapter in your campus or community.",
+    "responsibilities": [
+      "Bring young people together",
+      "Organize talks, workshops and events",
+      "Be the local face of Unity Within"
+    ],
+    "lookingFor": [
+      "A young person who cares about mental health and wants to lead"
+    ],
+    "applyEmail": "info.unitywithin@gmail.com"
+  },
+  {
+    "slug": "research-collaborator",
+    "title": "Research Collaborator",
+    "type": "research",
+    "status": "open",
+    "summary": "Help us study how AI and new technology affect mental health.",
+    "responsibilities": [
+      "Help plan and carry out research",
+      "Share ideas and skills in research, technology or mental health"
+    ],
+    "lookingFor": [
+      "Students, researchers and tech people who want to understand how technology changes the way young people feel"
+    ],
+    "applyEmail": "info.unitywithin@gmail.com"
+  }
+]
+

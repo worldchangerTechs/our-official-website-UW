@@ -1,0 +1,115 @@
+/* StoryDetail page styles */
+/* Hero section */
+.detail-hero {
+  position: relative;
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.detail-hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+.detail-hero h1 {
+  margin: 0.5rem 0;
+  font-size: 2.5rem;
+}
+.detail-hero p.author-line {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+/* Body section */
+.story-body {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+.story-body .pull-quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 1.5rem 0;
+  text-align: center;
+  color: #555;
+}
+/* Video */
+.video-wrapper {
+  margin: 2rem 0;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-wrapper iframe,
+.video-wrapper .video-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* More stories */
+.more-stories .more-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.more-stories .more-card {
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+.more-stories .more-card:hover {
+  transform: translateY(-4px);
+}
+.more-stories img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.more-stories h3 {
+  margin: 0.5rem;
+  font-size: 1.1rem;
+}
+.more-stories .quote {
+  margin: 0.5rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+/* Share section */
+.share-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+.share-status {
+  min-height: 1.5em;
+  margin: 12px 0 0;
+  color: var(--gray);
+  font-size: 13px;
+}
+.story-unavailable {
+  min-height: 50vh;
+}
+/* Responsive */
+@media (max-width: 600px) {
+  .detail-hero h1 {
+    font-size: 1.8rem;
+  }
+  .detail-hero .overlay {
+    padding: 1rem;
+  }
+}
