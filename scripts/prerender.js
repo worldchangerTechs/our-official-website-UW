@@ -5,7 +5,7 @@ import { pathToFileURL, fileURLToPath } from 'node:url'
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const distDir = path.join(root, 'dist')
 const serverFile = path.join(root, 'dist-ssr', 'entry-server.js')
-const base = '/unitywithin-application-page/'
+const base = '/our-official-website-UW/'
 const htmlTemplate = await fs.readFile(path.join(distDir, 'index.html'), 'utf8')
 const { render } = await import(pathToFileURL(serverFile).href)
 const paths = [
@@ -33,7 +33,7 @@ for (const route of paths) {
     .replace('</head>', `${head}</head>`)
     .replace('<div id="root">', `<div id="root" data-prerendered-route="${route}">`)
     .replace('<!--app-html-->', content)
-    .replace(/href="\/(?!unitywithin-application-page\/)([^"]*)"/g, (_, destination) => `href="${base}${destination}"`)
+    .replace(/href="\/(?!our-official-website-UW\/)([^"]*)"/g, (_, destination) => `href="${base}${destination}"`)
   const output = route === '/' ? path.join(distDir, 'index.html') : path.join(distDir, route.slice(1), 'index.html')
   await fs.mkdir(path.dirname(output), { recursive: true })
   await fs.writeFile(output, html)
