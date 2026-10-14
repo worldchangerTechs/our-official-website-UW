@@ -234,7 +234,8 @@ h1, h2 { letter-spacing: -.045em; }
 .site-footer { padding: 54px 0 22px; background: #2a2022; color: var(--white); }
 .footer-cta { position: relative; display: grid; min-height: 300px; align-items: center; overflow: hidden; margin-bottom: 48px; border-radius: 17px; background: var(--pink-deep); isolation: isolate; }
 .footer-cta > .image-block { position: absolute; z-index: -2; inset: 0; height: 100%; }
-.footer-cta > .image-block img { opacity: .4; }
+.footer-cta > .image-block::after { position: absolute; inset: 0; background: linear-gradient(90deg, transparent 0%, transparent 30%, rgb(42 32 34 / 40%) 60%, rgb(42 32 34 / 85%) 100%); content: ""; pointer-events: none; }
+.footer-cta > .image-block img { opacity: .6; }
 .footer-cta::after { position: absolute; z-index: -1; inset: 0; background: linear-gradient(100deg, rgb(168 15 99 / 94%), rgb(35 26 28 / 32%)); content: ""; }
 .footer-cta__copy { max-width: 570px; padding: 34px; color: var(--white); }
 .footer-cta__copy .eyebrow, .footer-cta__copy > p { color: var(--white); }

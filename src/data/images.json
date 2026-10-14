@@ -8,55 +8,116 @@
     "avif": [
       {
         "width": 480,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-480.avif"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-480.avif"
       },
       {
         "width": 800,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-800.avif"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-800.avif"
       },
       {
         "width": 1200,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1200.avif"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1200.avif"
       },
       {
         "width": 1600,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1600.avif"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1600.avif"
       }
     ],
     "webp": [
       {
         "width": 480,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-480.webp"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-480.webp"
       },
       {
         "width": 800,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-800.webp"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-800.webp"
       },
       {
         "width": 1200,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1200.webp"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1200.webp"
       },
       {
         "width": 1600,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1600.webp"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1600.webp"
       }
     ],
     "jpeg": [
       {
         "width": 480,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-480.jpg"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-480.jpg"
       },
       {
         "width": 800,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-800.jpg"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-800.jpg"
       },
       {
         "width": 1200,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1200.jpg"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1200.jpg"
       },
       {
         "width": 1600,
-        "src": "/unitywithin-application-page/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1600.jpg"
+        "src": "/our-official-website-UW/images/optimized/hassan-kibwana-fmXLB_uHIh4-unsplash-1600.jpg"
+      }
+    ]
+  },
+  {
+    "name": "ian-macharia-NRv8BsouFBQ-unsplash.jpg",
+    "width": 3860,
+    "height": 2294,
+    "dominantColor": "#282828",
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOGiYqMqwUA//9k=",
+    "avif": [
+      {
+        "width": 480,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-480.avif"
+      },
+      {
+        "width": 800,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-800.avif"
+      },
+      {
+        "width": 1200,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-1200.avif"
+      },
+      {
+        "width": 1600,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-1600.avif"
+      }
+    ],
+    "webp": [
+      {
+        "width": 480,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-480.webp"
+      },
+      {
+        "width": 800,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-800.webp"
+      },
+      {
+        "width": 1200,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-1200.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-1600.webp"
+      }
+    ],
+    "jpeg": [
+      {
+        "width": 480,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-480.jpg"
+      },
+      {
+        "width": 800,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-800.jpg"
+      },
+      {
+        "width": 1200,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "src": "/our-official-website-UW/images/optimized/ian-macharia-NRv8BsouFBQ-unsplash-1600.jpg"
       }
     ]
   },
@@ -69,55 +130,55 @@
     "avif": [
       {
         "width": 480,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-480.avif"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-480.avif"
       },
       {
         "width": 800,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-800.avif"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-800.avif"
       },
       {
         "width": 1200,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1200.avif"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1200.avif"
       },
       {
         "width": 1600,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1600.avif"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1600.avif"
       }
     ],
     "webp": [
       {
         "width": 480,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-480.webp"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-480.webp"
       },
       {
         "width": 800,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-800.webp"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-800.webp"
       },
       {
         "width": 1200,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1200.webp"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1200.webp"
       },
       {
         "width": 1600,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1600.webp"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1600.webp"
       }
     ],
     "jpeg": [
       {
         "width": 480,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-480.jpg"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-480.jpg"
       },
       {
         "width": 800,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-800.jpg"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-800.jpg"
       },
       {
         "width": 1200,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1200.jpg"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1200.jpg"
       },
       {
         "width": 1600,
-        "src": "/unitywithin-application-page/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1600.jpg"
+        "src": "/our-official-website-UW/images/optimized/justin-porter-hZCsLN3Y49c-unsplash-1600.jpg"
       }
     ]
   },
@@ -130,55 +191,80 @@
     "avif": [
       {
         "width": 480,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-480.avif"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-480.avif"
       },
       {
         "width": 800,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-800.avif"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-800.avif"
       },
       {
         "width": 1200,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1200.avif"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1200.avif"
       },
       {
         "width": 1600,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1600.avif"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1600.avif"
       }
     ],
     "webp": [
       {
         "width": 480,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-480.webp"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-480.webp"
       },
       {
         "width": 800,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-800.webp"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-800.webp"
       },
       {
         "width": 1200,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1200.webp"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1200.webp"
       },
       {
         "width": 1600,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1600.webp"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1600.webp"
       }
     ],
     "jpeg": [
       {
         "width": 480,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-480.jpg"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-480.jpg"
       },
       {
         "width": 800,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-800.jpg"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-800.jpg"
       },
       {
         "width": 1200,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1200.jpg"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1200.jpg"
       },
       {
         "width": 1600,
-        "src": "/unitywithin-application-page/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1600.jpg"
+        "src": "/our-official-website-UW/images/optimized/oscar-omondi-pLWciVWwGVQ-unsplash-1600.jpg"
+      }
+    ]
+  },
+  {
+    "name": "WhatsApp Image 2026-10-11 at 21.15.34.jpeg",
+    "width": 640,
+    "height": 640,
+    "dominantColor": "#f8f8f8",
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAUABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDWtNKCqAIACqAI/9k=",
+    "avif": [
+      {
+        "width": 480,
+        "src": "/our-official-website-UW/images/optimized/WhatsApp%20Image%202026-10-11%20at%2021.15.34-480.avif"
+      }
+    ],
+    "webp": [
+      {
+        "width": 480,
+        "src": "/our-official-website-UW/images/optimized/WhatsApp%20Image%202026-10-11%20at%2021.15.34-480.webp"
+      }
+    ],
+    "jpeg": [
+      {
+        "width": 480,
+        "src": "/our-official-website-UW/images/optimized/WhatsApp%20Image%202026-10-11%20at%2021.15.34-480.jpg"
       }
     ]
   }

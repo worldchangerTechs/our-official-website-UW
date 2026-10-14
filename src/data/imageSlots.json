@@ -167,8 +167,11 @@
     "aspectRatio": "16/9",
     "focalX": 0.5,
     "focalY": 0.5,
-    "alt": "Donate call‑to‑action banner",
-    "source": {}
+    "alt": "Ian Macharia - Youth mental health advocate",
+    "source": {
+      "cdnUrl": "/our-official-website-UW/images/ian-macharia-NRv8BsouFBQ-unsplash.jpg",
+      "dominantColor": "#2d2d2d"
+    }
   },
   {
     "slot": "resources-banner",

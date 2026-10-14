@@ -8,7 +8,7 @@ const inputDir = path.join(root, 'images')
 const outputDir = path.join(root, 'public', 'images', 'optimized')
 const dataDir = path.join(root, 'src', 'data')
 const targetWidths = [480, 800, 1200, 1600]
-const basePath = '/unitywithin-application-page/'
+const basePath = '/our-official-website-UW/'
 const formats = { avif: { quality: 60 }, webp: { quality: 75 }, jpeg: { quality: 72 } }
 const extensions = new Set(['.jpg', '.jpeg', '.png', '.webp'])
 
